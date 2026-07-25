@@ -5,6 +5,7 @@
     "longest-palindromic-substring": 2081234865,
     "longest-substring-without-repeating-characters": 2073869627,
     "median-of-two-sorted-arrays": 2081233508,
-    "two-sum": 2039222821
+    "two-sum": 2039222821,
+    "zigzag-conversion": 2081242288
   }
 }

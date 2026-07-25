@@ -1,0 +1,14 @@
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1 or numRows >= len(s):
+            return s
+        rows = [''] * numRows
+        cur, step = 0, 1
+        for ch in s:
+            rows[cur] += ch
+            if cur == 0:
+                step = 1
+            elif cur == numRows - 1:
+                step = -1
+            cur += step
+        return ''.join(rows)
